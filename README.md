@@ -43,11 +43,11 @@ Tranlsates the subviews along with collapsing view maintaing the margin constrai
  Keeps the subviews clipped to their origin. They don't move on collapsing 
 <br><img src="https://media.giphy.com/media/L5BNZiIyPu0Jq/giphy.gif" style="width:204px;height:128px;"><br>
 
-3. <b> AlongWithFaster </b> <br>
+3️. <b> AlongWithFaster </b> <br>
   Translates the subviews relatively faster than collapseview. Give it a try ! I love this !
 <br><img src="https://media.giphy.com/media/Z9H00RMBqaKS4/giphy.gif" style="width:304px;height:228px;"><br>
 
-4. <b> AlongWithSlower </b> <br>
+4️. <b> AlongWithSlower </b> <br>
 Translates the subviews slower than collapseview. 
 <br><img src="https://media.giphy.com/media/OEVq0b8lsTKXm/giphy.gif" style="width:304px;height:228px;"><br>
 
