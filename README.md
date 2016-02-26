@@ -35,11 +35,11 @@ Now default collapse being setup, you definately want to customise some properti
 <br><br>
 ✔ movementType - you can choose the movement type of the subviews when view is collapsing. There are 4 possible types of movement !
 <br> 
-1. <b> AlongWith </b> <br>
+1️. <b> AlongWith </b> <br>
 Tranlsates the subviews along with collapsing view maintaing the margin constraint.
 <br><img src="https://media.giphy.com/media/KnG4wDJFQRVAI/giphy.gif"  style="width:204px;height:128px;"><br>
 
-2. <b> Stationary </b> <br>
+2️. <b> Stationary </b> <br>
  Keeps the subviews clipped to their origin. They don't move on collapsing 
 <br><img src="https://media.giphy.com/media/L5BNZiIyPu0Jq/giphy.gif" style="width:204px;height:128px;"><br>
 
