@@ -1,0 +1,6 @@
+framework module DSCollapseView {
+  umbrella header "DSCollapseView-umbrella.h"
+
+  export *
+  module * { export * }
+}

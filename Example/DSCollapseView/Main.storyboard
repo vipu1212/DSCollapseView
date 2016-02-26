@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DSCollapseView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHr-He-wCk" customClass="DSCollapseView" customModule="DSCollapseView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey ! It's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wA-y6-4TP">
+                                        <rect key="frame" x="20" y="130" width="580" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Gqm-FG-U2q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divyansh 😃 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jM1-hn-keX">
+                                        <rect key="frame" x="20" y="161" width="580" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="j87-TT-Qle"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44661509086248596" green="0.71550376120955383" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jM1-hn-keX" secondAttribute="trailing" id="6Sc-a8-hvh"/>
+                                    <constraint firstItem="jM1-hn-keX" firstAttribute="top" secondItem="4wA-y6-4TP" secondAttribute="bottom" constant="10" id="95E-cP-fI2"/>
+                                    <constraint firstAttribute="height" constant="200" id="LX1-3m-bzi"/>
+                                    <constraint firstItem="4wA-y6-4TP" firstAttribute="leading" secondItem="NHr-He-wCk" secondAttribute="leading" constant="20" id="MYr-f3-W5A"/>
+                                    <constraint firstItem="jM1-hn-keX" firstAttribute="leading" secondItem="NHr-He-wCk" secondAttribute="leading" constant="20" id="Xs9-Zk-nQ1"/>
+                                    <constraint firstItem="4wA-y6-4TP" firstAttribute="top" secondItem="NHr-He-wCk" secondAttribute="top" constant="130" id="bn6-v7-Qks"/>
+                                    <constraint firstAttribute="trailing" secondItem="4wA-y6-4TP" secondAttribute="trailing" id="wRm-rd-18O"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88838814455261805" green="0.98974358974358978" blue="0.86081212273442087" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NHr-He-wCk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5kK-PR-aqe"/>
+                            <constraint firstItem="NHr-He-wCk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QwS-Sh-6GC"/>
+                            <constraint firstAttribute="trailing" secondItem="NHr-He-wCk" secondAttribute="trailing" id="wS2-qT-ZxU"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="collapseView" destination="NHr-He-wCk" id="74g-8n-q9v"/>
+                        <outlet property="subViewBottomContraint" destination="bn6-v7-Qks" id="3nu-qJ-grd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

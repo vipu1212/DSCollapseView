@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "DSCollapseView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of DSCollapseView."
+  s.version          = "0.0.1"
+  s.summary          = "Collapse View for iOS. Dragging the view collapse it !"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+A quick and easy way to make any UIView collapse on dragging. All you have to do is assign your view which you want to collapse, to DSCollapseView Class. That easy ! But not requirements are the same right ? So, you get to set the minimum height property, animation/translation type of collapsing of subviews, even show another view when your view is collaped. Check out the ReadMe to get started !! Also, suggestions and feedbacks are always open :)
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/DSCollapseView"
@@ -35,6 +36,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

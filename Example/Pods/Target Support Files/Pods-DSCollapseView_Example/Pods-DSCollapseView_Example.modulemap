@@ -1,0 +1,6 @@
+framework module Pods_DSCollapseView_Example {
+  umbrella header "Pods-DSCollapseView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
