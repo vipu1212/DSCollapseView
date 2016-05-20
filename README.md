@@ -80,6 +80,10 @@ Customizing is as simple as it gets !
 ```
 That's it ! Enjoy :)
 
+<br> <p>
+
+Do 'star' it if you like it! For suggestion drop me a mail! :)
+
 ## Author
 
 Divyansh Singh, divyansh.1212@gmail.com
