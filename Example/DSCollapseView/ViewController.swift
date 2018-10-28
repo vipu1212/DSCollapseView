@@ -9,15 +9,15 @@
 import UIKit
 import DSCollapseView
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var collapseView: DSCollapseView!
-    
+
     @IBOutlet weak var subViewBottomContraint : NSLayoutConstraint!
-    
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.collapseView.subViewConstraint = self.subViewBottomContraint
         self.collapseView.movementType = MovementType.AlongWithFaster
         let appearingView = UIView()
