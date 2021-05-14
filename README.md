@@ -45,7 +45,9 @@ pod "DSCollapseView"
 
 
 
-No effort required for initializing or anything. Just create a view which you want to make collapsing and assign it class DSCollapseView from Storyboard. This will set up a default collapse view which will collapse on dragging of it.
+No effort required for initializing. 
+
+Just add a view which you want to make collapsing, and assign it class DSCollapseView from Storyboard. This will set up a default collapse view which will collapse on dragging.
 
 
 
@@ -54,7 +56,7 @@ No effort required for initializing or anything. Just create a view which you wa
 
 
 
-Now default collapse being setup, you definately want to customise some properties. Well, below are all the properties you can set
+Now default collapse being setup, you definately want to customise some properties. Below are all the properties you can set
 
 
 
